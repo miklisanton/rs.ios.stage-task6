@@ -175,6 +175,7 @@ class CoronaClassTests: XCTestCase {
         coronaClass = CoronaClass(n: 75)
         seat0 = coronaClass.seat()
         seat1 = coronaClass.seat()
+        print(seat2)
         coronaClass.leave(seat2)
         seat2 = coronaClass.seat()
         seat3 = coronaClass.seat()
